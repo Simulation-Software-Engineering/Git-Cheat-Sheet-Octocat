@@ -1,3 +1,3 @@
 Contribution guide
 
-work in progress
+work currently in progress
