@@ -10,11 +10,13 @@
 * git push
 * git add
 * git commit
+* git checkout
 
 
 ### Informative commands
 
 * git status
 * git log
+* git help
 
 ## Category Y
