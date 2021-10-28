@@ -8,7 +8,7 @@ A joint git cheat sheet as a training repository to learn git workflows
 ``git branch``: creates a new branch
 ``git checkout <branch-name>``: switch to the specified branch 
 ``git merge``: merges the changes of the remote branch to the local branch
-git rebase - moving the base of a branch onto a different position
+``git rebase``: moving the base of a branch onto a different position
 git pull - downloads and merges changes to your local repository
 git fetch - make changes on the remote repository locally visible
 
