@@ -8,7 +8,7 @@ An overview of the ``git structure`` can be taken from the above picture. We can
 - working files: our local working directory
 - staging area: the changes we want to add to our repository
 - local repository: a local environment where we track all our file changes
-- remote repository (a remote environment that can be available for other users)
+- remote repository: a remote environment that can be available for other users
 
 ## Basic Commands
 
