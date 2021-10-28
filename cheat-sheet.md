@@ -4,6 +4,7 @@
 
 ### Manipulating repositories
 
+* git init
 * git clone
 * git pull
 * git push
