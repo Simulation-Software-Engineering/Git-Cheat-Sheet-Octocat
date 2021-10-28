@@ -7,3 +7,4 @@
 * `git effort` (from `git-extras` repository) : Show effort statistics on file(s) in repository 
 * `git commit -m "Title of commit" -d "Description of commit"` : to specify a commit message and description without going to vim
 * `aheadfork` : find GitHub forks that are ahead
+* `git stash` : Stash the changes in a dirty working directory away
