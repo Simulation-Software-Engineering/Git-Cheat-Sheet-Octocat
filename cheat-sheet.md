@@ -48,4 +48,17 @@
 - `GitExplorer`
   - [GitExplorer.com](https://GitExplorer.com) is a very useful tool which helps novice git users cut through the clutter and find the right git commands without digging through the web.
   ![](images/gitexplorer.png)
+  
+  ## Pull requests and reviews
+  
+  - Create a pull request:
+  1. a) After commiting your changes, go to "Pull Requests" -> "New pull request". Then, select the source as well as the target branch.
+      b)Alternatively, you can `git push -u myfork mybranch` after the commit. Git will automatically generate the link to the corresponding pull request which you can copy and open in a browser of your choice. 
+  2. Name the PR and fill out the template to shortly summarize what your PR contains / which changes you propose. You can also directly link to an open issue that is being solved by your changes (for this simply reference the issue via "#<number_of_the_issue>".
+  3. Finally, click "Create pull request" to confirm.
+  
+  - Pull request templates:
+  
+  - Code review:
 
+  - Close/merge pull request:
