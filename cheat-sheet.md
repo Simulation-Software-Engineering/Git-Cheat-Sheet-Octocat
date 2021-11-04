@@ -2,7 +2,7 @@
 
 ## General Overview of Git structure
 
-![image](./git-remote.png)
+![image](./images/git-remote.png)
 
 An overview of the ``git structure`` can be taken from the above picture. We can simply derive from it that there are 4 distinct blocks:
 - working files: our local working directory
