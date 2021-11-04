@@ -1,5 +1,15 @@
 # Git Cheat Sheet – Flavor Octocat
 
+## General Overview of Git structure
+
+![image](./git-remote.png)
+
+An overview of the ``git structure`` can be taken from the above picture. We can simply derive from it that there are 4 distinct blocks:
+- working files: our local working directory
+- staging area: the changes we want to add to our repository
+- local repository: a local environment where we track all our file changes
+- remote repository: a remote environment that can be available for other users
+
 ## Basic Commands
 
 ### Manipulating repositories
