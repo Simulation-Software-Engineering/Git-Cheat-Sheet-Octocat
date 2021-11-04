@@ -2,7 +2,7 @@
 
 #### **Did you find a bug or want something to be changed?**
 
-* Please check if the issue already exists and your information and questions there.
+* Please check if the issue already exists and add your information and questions there.
 
 * If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
