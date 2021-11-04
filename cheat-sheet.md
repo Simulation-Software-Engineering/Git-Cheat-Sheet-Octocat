@@ -48,4 +48,27 @@
 - `GitExplorer`
   - [GitExplorer.com](https://GitExplorer.com) is a very useful tool which helps novice git users cut through the clutter and find the right git commands without digging through the web.
   ![](images/gitexplorer.png)
+  
+  ## Pull requests and reviews
+  
+  - Create a pull request:
+  1. a) After commiting your changes, go to "Pull Requests" -> "New pull request". Then, select the source as well as the target branch.
+      b) Alternatively, you can `git push -u myfork mybranch` after the commit. Git will automatically generate the link to the corresponding pull request which you can copy and open in a browser of your choice. 
+  2. Name the PR and fill out the template to shortly summarize what your PR contains / which changes you propose. You can also directly link to an open issue that is being solved by your changes. For this, simply reference the issue via "#<number_of_the_issue>".
+  3. Finally, click "Create pull request" to confirm.
+  
+  - Code review:
+  After creating the pull request, you can assign yourself or others as reviewers. Reviewers are being notified that their feedback is required and can request changes or directly edit the respective files if the are allowed to. 
+  In general, the review has three possible statuses: 
+  1. Comment: General feedback and suggestions
+  2. Approve
+  3. Request changes: Feedback must be addressed before merging. In this case you can ask for a re-review afterwards.
+  To protect certain branches, the administrators of the repository can ask for a specific number of approving review before merging the pull request.
 
+  - Close/merge pull request:
+  Once the review is approved, there are three ways to merge the pull request:
+  1. Retain all the commits of a feature branch
+  2. Squash all commits of the feature branch into a single commit (suggested)
+  3. Rebasing individual commits
+  Anyone with push access to the repository can complete the merge.
+  If the changes of the pull request are no longer needed or another solution has been proposed in the meantime, it is also possible to close a PR without merging by clicking "Close pull request" at the bottom of the pull request.
