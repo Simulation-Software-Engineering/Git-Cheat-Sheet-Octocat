@@ -9,6 +9,17 @@ In particular, it has been created in the context of the lecture "Simulation Sof
 Here everyone can start in a small way to contribute to an open-source software development. Imperfect contributions should be developed by the community and provide a learning effect for everyone who contributes to this project.
 
 
+##Category: Branch, forks, merge/rebase
+``git branch``: creates a new branch
+``git checkout <branch-name>``: switch to the specified branch 
+``git merge``: merges the changes of the remote branch to the local branch
+``git rebase``: moving the base of a branch onto a different position
+``git pull``: downloads and merges changes to your local repository
+``git fetch``: make changes on the remote repository locally visible
+
+![Diff Rebase Merge](images/git_commit_merge_rebase.png)
+
+
 ## License
 
 This work is licensed under a
